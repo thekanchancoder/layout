@@ -14,7 +14,6 @@ body {
   width: 100%;
   background-color: rgb(99, 79, 75);
   display: flex;
-  
 }
 #part1 {
   width: 26%;
@@ -68,29 +67,27 @@ body {
   right: 5%;
   transform: translate(0%, -50%);
 }
-#vertical-text{
+#vertical-text {
   position: absolute;
   /* width: 100%; */
   /* background-color: red; */
-  right: -70%;
-   transform-origin: 0% 0%;
-   top: -30%;
-   
+  right: -66%;
+  /* transform-origin: 0% 0%;
+   top: -30%; */
 }
-#vertical-text h1{
+#vertical-text h1 {
   font-size: 70px;
   font-weight: 900;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  -webkit-text-stroke-color:#fff ;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  -webkit-text-stroke-color: #fff;
   -webkit-text-stroke-width: 2px;
   color: transparent;
   letter-spacing: 15px;
- transform: rotate(90deg);
- transform-origin: 0% 0%;
- right: 0%;
- 
+  transform: rotate(90deg);
+  transform-origin: 0% 0%;
+  right: 0%;
 }
-#nav{
+#nav {
   position: absolute;
   width: 320px;
   /* background-color: red; */
@@ -100,13 +97,11 @@ body {
   left: 8%;
   top: 5%;
 }
-#nav img{
+#nav img {
   height: 60px;
-
 }
-#nav h5{
+#nav h5 {
   font-size: 20px;
   font-family: gilroy;
   color: #fff;
-
 }
